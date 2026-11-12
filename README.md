@@ -32,9 +32,18 @@ By extracting structural and security indicators—such as URL length, dot/hyphe
 ## 🛠️ Tech Stack & Tools
 * **Programming:** Python 3, C++ (Arduino)
 * **Libraries:** `scikit-learn`, `re`
-* **Environments:** Google Colab, GitHub, Tinkercad Circuits
+* **Environments:** Google Colab, GitHub, Tinkered 3D Circuit Studio
 
 ---
+
+## 🔌 Hardware Engineering Integration (Tinkered 3D Circuit)
+To demonstrate an end-to-end **Cyber-Physical Security System**, the Python Random Forest classifier interfaces with an **Arduino Uno 3D alert circuit** (`main.cpp`, `config.h`) built and simulated in **Tinkered**:
+
+* **Phishing Alert State (`1`):** Activates the **Red LED (Pin 8)** via a 220Ω resistor and triggers the **Piezo Buzzer alarm** for immediate physical threat signaling.
+* **Verified Safe State (`0`):** Switches off the alarm and activates the **Green LED (Pin 9)**.
+
+![Tinkered 3D Hardware Alert Circuit](tinkered_alert_circuit.png)
+
 
 ## 🎓 Verified IBM SkillsBuild Certifications
 This project applies concepts earned through verified IBM credentials:
