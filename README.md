@@ -4,6 +4,8 @@
 **Focus Areas:** Artificial Intelligence, Machine Learning, Cybersecurity & Embedded Systems
 
 ---
+**🚀 Live Interactive Web Demo:** [Test the AI Phishing URL Detector Live on Hugging Face](https://huggingface.co/spaces/nayyab18/AI-Phishing-Detector)
+
 
 ## 📌 Project Overview
 Phishing attacks remain one of the most common cybersecurity threats online. This project uses a **Random Forest Machine Learning classifier** built in Python (`scikit-learn`) to inspect website URLs and identify malicious or deceptive links in real time. 
