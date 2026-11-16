@@ -5,6 +5,8 @@
 
 ---
 **🚀 Live Interactive Web Demo:** [Test the AI Phishing URL Detector Live on Hugging Face](https://huggingface.co/spaces/nayyab18/AI-Phishing-Detector)
+**📄 Technical Research Paper (PDF):** [Comparative Analysis of ML Classifiers for Real-Time Phishing Detection (97.42% Accuracy on 11,055 URLs)](Comparative_Analysis_Phishing_Detection_Nayyab_Faisal.pdf)
+
 
 
 ## 📌 Project Overview
@@ -30,6 +32,18 @@ By extracting structural and security indicators—such as URL length, dot/hyphe
 | `http://security-alert-verify-account.com` | 🚨 **PHISHING** | **98.0%** Risk |
 
 ---
+### 🔬 Large-Scale Benchmark Evaluation (11,055 Real URLs)
+To validate generalization beyond synthetic test cases, four supervised classifiers were benchmarked on the **UCI Phishing Websites dataset (11,055 URLs, 30 security features)** using an 80/20 stratified split (**2,211 unseen test URLs**):
+
+| Classifier Model | Accuracy | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: | :---: |
+| **Random Forest (Best)** | **97.42%** | **96.96%** | **98.46%** | **97.70%** |
+| Decision Tree | 97.11% | 97.02% | 97.81% | 97.41% |
+| Gradient Boosting | 95.30% | 95.33% | 96.26% | 95.80% |
+| Logistic Regression | 92.90% | 92.42% | 95.04% | 93.71% |
+
+![Phishing ML Benchmark Charts](phishing_benchmark_charts.png)
+
 
 ## 🛠️ Tech Stack & Tools
 * **Programming:** Python 3, C++ (Arduino)
