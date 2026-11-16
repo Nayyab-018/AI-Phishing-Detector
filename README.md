@@ -5,6 +5,7 @@
 
 ---
 **🚀 Live Interactive Web Demo:** [Test the AI Phishing URL Detector Live on Hugging Face](https://huggingface.co/spaces/nayyab18/AI-Phishing-Detector)
+
 **📄 Technical Research Paper (PDF):** [Comparative Analysis of ML Classifiers for Real-Time Phishing Detection (97.42% Accuracy on 11,055 URLs)](Comparative_Analysis_Phishing_Detection_Nayyab_Faisal.pdf)
 
 
