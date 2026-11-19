@@ -2,6 +2,7 @@
 
 **Developed by:** Nayyab Faisal  
 **Focus Areas:** Artificial Intelligence, Machine Learning, Cybersecurity & Embedded Systems
+
 [[Live Demo](https://shields.io)](https://ai-phishing-detector-zmzzh98wj52ty3x2cnhlyy.streamlit.app/)
 
 ---
